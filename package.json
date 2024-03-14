@@ -1,0 +1,52 @@
+{
+  "name": "chart-js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/font": "13.1.6",
+    "@next/mdx": "^13.4.8",
+    "@types/react-slick": "^0.23.10",
+    "chart.js": "^4.4.2",
+    "emailjs-com": "^3.2.0",
+    "eslint": "8.33.0",
+    "eslint-config-next": "^13.5.3",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^8.9.0",
+    "google-spreadsheet": "^4.0.3",
+    "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.2.1",
+    "next": "^13.5.3",
+    "next-mdx-remote": "^4.4.1",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-markdown": "^8.0.7",
+    "react-phone-number-input": "^3.2.25",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.3",
+    "remark-gfm": "^3.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.34",
+    "autoprefixer": "^10.4.13",
+    "daisyui": "^3.6.1",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^5.0.4"
+  }
+}
