@@ -2,7 +2,6 @@ const path = require("path");
 import Link from "next/link";
 import { Metadata } from "next";
 import { BaseSeoContent } from "@/SeoContent/BaseSeoContent";
-import Footer from "@/components/Footer";
 const { pageTitle, pageDescription, imageUrl, siteUrl } = BaseSeoContent;
 export const metadata: Metadata = {
   title: pageTitle,

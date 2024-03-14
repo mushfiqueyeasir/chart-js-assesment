@@ -7,7 +7,7 @@ import { commentsChartData } from "../../uitils/dataSort";
 const QuestionsBarChart = ({ processedData }) => {
   const chartData = commentsChartData(processedData.data);
   const sortedData = Object.fromEntries(
-    Object.entries(chartData).sort(([, a], [, b]) => b - a)
+    Object.entries(chartData).sort(([, a], [, b]) => (b as any) - (a as any))
   );
   const [table, setTable] = useState(false);
   const [sort, setSort] = useState(false);
@@ -17,7 +17,7 @@ const QuestionsBarChart = ({ processedData }) => {
         <h1 className="font-semibold">
           How did you know or discover Singha beer?
         </h1>
-        <di className="flex  items-center gap-x-2">
+        <div className="flex  items-center gap-x-2">
           <div className="flex items-center gap-2 font-semibold">
             Table
             <input
@@ -40,7 +40,7 @@ const QuestionsBarChart = ({ processedData }) => {
               checked={sort}
             />
           </div>
-        </di>
+        </div>
       </div>
       <div
         className={`grid grid-cols-1 px-3  ${
